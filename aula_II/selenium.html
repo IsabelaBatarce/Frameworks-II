@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="estilo/jumbrotonStyle.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <title>Template Bootstrap</title>
+  </head>
+  <body>
+
+      <header>
+           <div class="row">
+             <div class="container-fluid">
+                                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Template Bootstrap</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                      <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                          <a class="nav-link" href="#">Principal <span class="sr-only">(página atual)</span></a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                          </a>
+                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Ação</a>
+                            <a class="dropdown-item" href="#">Outra ação</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Algo mais aqui</a>
+                          </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link disabled" href="#">Desativado</a>
+                        </li>
+                      </ul>
+                      <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                      </form>
+                    </div>
+                  </nav>
+             </div>
+    </div>
+      </header>
+      <main>
+        
+
+         
+
+
+          <div class="container">
+
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-9 text-center" style="margin-top: 20px">
+                	<div class="row">
+
+                	<h1 class="text-uppercase"> Selenium </h1>
+                		<div class="text-justify">
+                			</br>
+                        <img src="img/selenium.jpg" class="rounded mx-auto d-block"></br>
+                      <p>
+                			   A automação de testes existe para, através de ferramentas e estratégias, reduzir ao máximo o
+                          envolvimento humano em atividades manuais repetitivas, como o cadastro de um cliente ou o
+                          login/logout em uma aplicação.</br>
+                          O principal objetivo de um teste automatizado é ser usado futuramente em testes de regressão.
+                          Esse termo, por sua vez, é usado para quando precisamos efetuar ciclos de re-teste de uma ou
+                          várias funcionalidades, com a intenção de identificar problemas ou defeitos introduzidos pela
+                          adição de novas funcionalidades ou pela correção de alguma já existente.
+                          Em contrapartida, a utilização de testes automatizados acelera os ciclos do software, uma vez
+                          que o teste passa a ser executado por outro software inteligente, que acessa as telas e reexecuta
+                          os mesmos testes nos dando relatórios rápidos do que deixou de funcionar. Além disso, estamos
+                          menos suscetíveis a erros, já que a máquina nunca erra, ao contrário de termos humanos
+                          testando.</br>
+                          Existem várias abordagens diferentes para a automação de testes. Os tipos são normalmente
+                          agrupados de acordo com a maneira com a qual os testes se integram e interagem com o
+                          software. Um testador pode construir seu teste baseando-se em dois conceitos:</br></br>
+                          1.<b> Interface gráfica</b></br></br>
+                          a. Gravação/Execução (Capture/Playback): os testes são feitos diretamente na interface gráfica
+                          da aplicação: HTML, XML, Swing, etc. As ferramentas geralmente disponibilizam recursos para
+                          efetuar a gravação (capture) das ações feitas nas telas que serão convertidas para uma
+                          linguagem de script inteligível pela mesma, a qual poderá futuramente ser reexecutada
+                          (playback).</br>
+                          b. Dirigido a dados (Data-Drive): representa uma abordagem mais dirigida aos dados no sentido
+                          de gravar as ações do usuário, porém sempre fornecendo dados distintos para deixar o teste
+                          mais próximo da realidade.</br>
+                          c. Dirigido a palavras-chave (Keyword-Driven): são testes com alto nível de abstração, onde até
+                          mesmo usuários comuns podem criar instruções para iniciar um teste, uma vez que o mesmo
+                          será baseado em palavras-chave. Cada palavra-chave representa um comando da ferramenta.</br></br>
+                          2. <b>Lógica de negócio</b></br></br>
+                          a. Linha de comando (Command Line Interface): fornece uma interface com um mecanismo de
+                          interação com a aplicação por meio de um prompt cmd do SO e os comandos podem ser
+                          enviados de lá.</br>
+                          b. API (Application Programming Interface): fornece bibliotecas ou um conjunto de classes para
+                          permitir que outras aplicações acessem a interface do teste sem necessariamente ter de
+                          conhecer como eles foram feitos.</br>
+                          c. Test Harness (Equipamentos de teste): é um teste específico que visa o teste único e exclusivo
+                          da lógica de negócio. Não é permitida interação alguma com as interfaces gráficas.
+                          O sucesso desse tipo de teste depende de identificar e alocar elementos da GUI (Graphical User
+                          Interface) na aplicação a ser testada e então executar operações e verificações nestes mesmos
+                          elementos para que o fluxo do teste seja completado com sucesso.</br>
+                          O Selenium é um framework de testes automatizados portável para aplicações web
+                          desenvolvido em 2004 por Jason Huggins como um projeto interno da empresa ThougthWorks.
+                          Ele fornece todo o aparato para capturar e reproduzir os testes via scripts sem a necessidade de
+                          aprender nenhuma linguagem de scripting. Também disponibiliza uma linguagem de teste
+                          específica para linguagens populares como Java, C#, Groovy, Perl, PHP, Python e Ruby. Os testes
+                          podem ser executados em browsers web modernos e os deploy de aplicação rodam tanto em
+                          Windows, quanto em Linux e Macintosh.</br>
+                          Dentre a lista de funcionalidades fornecida pelo framework, temos:</br>
+                          · Preenchimento de caixas de texto;</br>
+                          · Checagem de checkboxes e botões;</br>
+                          · Click em botões e links;</br>
+                          · Navegação de e para iframe’s;</br>
+                          · Navegação de e para novas janelas/tabs criadas por links;</br>
+                          · Interação com a maioria dos elementos como um humano faz.</br>
+                            Na lista de funcionalidades que ele não suporta, temos:</br>
+                          · Interação com Flash, PDF ou Applets;</br>
+                          · Interação com quaisquer objetos colocados dentro das tags HTML <object> e <embed>.</br>
+
+
+                                              
+                			</p>
+                		</div>
+
+                       
+                                       
+                </div>
+                </div>
+
+
+                
+                <div class="col-xs-12 col-sm-12 col-md-3" style="margin-top: 20px">
+
+                                <div class="card">
+                               <div class="card-body">
+                               <h5 class="card-title">Pesquisar</h5>
+                            <input type="text" class="form-control">
+                            <button type="button" class="btn btn-default" style="margin-top: 20px">Buscar</button>
+                       </div>
+                 </div>
+
+            
+
+                  <div class="card" style="margin-top: 20px">
+                               <div class="card-body">
+                               <h5 class="card-title">Destaques</h5>
+                            
+
+                              <ul class="list-group">
+                              <li class="list-group-item"> Destaque 1</li>
+
+                              <li class="list-group-item"> Destaque 2</li>
+
+                              <li class="list-group-item"> Destaque 3</li>
+
+                              <li class="list-group-item"> Destaque 4</li>
+
+                              <li class="list-group-item"> Destaque 5</li>
+                            </ul>
+
+
+                       </div>
+                 </div>
+
+                  <div class="card" style="margin-top: 20px">
+                               <div class="card-body">
+                               <h5 class="card-title">Artigos Recentes</h5>
+                            
+
+                              <ul class="list-group">
+                              <li class="list-group-item">Título do artigo 1</li>
+
+                              <li class="list-group-item">Título do artigo 2</li>
+
+                              <li class="list-group-item">Título do artigo 3</li>
+
+                              <li class="list-group-item">Título do artigo 4</li>
+
+                              <li class="list-group-item">Título do artigo 5</li>
+                            </ul>
+
+
+                       </div>
+                 </div>
+
+                </div>
+              </div>
+</div>
+</div>
+
+    
+      </main>
+      <footer>
+
+          <div class="row"> 
+              <div class="container text-center">
+
+
+              <p class="text-muted"> by Isabela Batarce </p>
+
+
+              </div>
+         </div>
+        
+      </footer>
+
+
+
+
+    <!-- JavaScript (Opcional) -->
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
